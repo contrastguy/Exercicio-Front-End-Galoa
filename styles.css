@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body {
+    z-index: 1;
+}
+
+#side-menu {
+    height: 536px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    bottom: 260vh;
+
+}
+
+#Top-nomeevento {
+    position: static;
+    width: 220px;
+    height: 68px;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-logo {
+    position: static;
+    width: 220px;
+    height: 258px;
+    left: 0px;
+    top: 68px;
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.menu-item-desativado {
+    height: 35px;
+    width: 220px;
+    top: 326px;
+    /* order: 2; */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #725C5C;
+    background: #FFFFFF;
+
+}
+
+#retangulo-separar1 {
+    height: 2px;
+    width: 220px;
+    left: 0px;
+    top: 33px;
+    border-radius: 0px;
+    background: #E7E7E7;
+    position: absolute;
+    top: 66%;
+}
+
+#retangulo-separar2 {
+    height: 2px;
+    width: 220px;
+    left: 0px;
+    top: 33px;
+    border-radius: 0px;
+    background: #E7E7E7;
+    position: absolute;
+    top: 72%;
+}
+
+#retangulo-separar3 {
+    height: 2px;
+    width: 220px;
+    left: 0px;
+    top: 33px;
+    border-radius: 0px;
+    background: #E7E7E7;
+    position: absolute;
+    top: 78%;
+}
+
+#retangulo-separar4 {
+    height: 2px;
+    width: 220px;
+    left: 0px;
+    top: 33px;
+    border-radius: 0px;
+    background: #E7E7E7;
+    position: absolute;
+    top: 87%;
+}
+
+#retangulo-separar5 {
+    height: 2px;
+    width: 220px;
+    left: 0px;
+    top: 33px;
+    border-radius: 0px;
+    background: #E7E7E7;
+    position: absolute;
+    top: 93%;
+}
+
+#retangulo-separar6 {
+    height: 2px;
+    width: 220px;
+    left: 0px;
+    top: 33px;
+    border-radius: 0px;
+    background: #E7E7E7;
+    position: absolute;
+    top: 99%;
+}
+
+
+
+
+#menu-escolhido {
+    height: 33px;
+    width: 5px;
+    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+    position: absolute;
+    left: 0;
+    right: 54.55%;
+    top: 87%;
+    bottom: 25.71%;
+}
+
+.menu-item-ativado {
+
+    width: 220px;
+    height: 35px;
+    background: #FDF1EB;
+    color: #725C5C;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    font-family: 'Quicksand', sans-serif;
+    flex: none;
+    /* order: 6; */
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+
+#side-menu-shadow {
+    height: 2508px;
+    width: 220px;
+    box-shadow: 0px 0px 10px 0px #00000040;
+    background: #FFFFFF;
+
+}
+
+header {
+    position: absolute;
+    /* width: 1146px;  dimensão mobile */
+    width: 1680px;
+    ;
+    height: 68px;
+    left: 231px;
+    top: 0px;
+    background: #FDF1EB;
+}
+
+#botao-idiomas {
+    position: absolute;
+    left: 125vh;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+}
+
+#botao-idiomas>button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+#login {
+    height: 34px;
+    width: 202px;
+    position: absolute;
+    left: 140vh;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+
+
+#img-pessoa>img {
+    border-radius: 100px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: -6px;
+    left: 223px;
+}
+
+#notification-badge {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: -65px;
+    top: -10px;
+    background-color: #F85959;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
