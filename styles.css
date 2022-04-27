@@ -14,7 +14,7 @@ body {
     align-items: center;
     padding: 0px;
     position: relative;
-    bottom: 260vh;
+    bottom: 263vh;
 
 }
 
@@ -233,4 +233,34 @@ header {
     text-align: center;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+}
+
+header>p {
+    position: relative;
+    left: 44px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header>h3 {
+    position: relative;
+    left: 40px;
+    margin: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header>h4 {
+    position: relative;
+    left: 40px;
+    margin: 2px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+    position: absolute;
+    width: 1059px;
+    height: 1382px;
+    left: 263px;
+    top: 88px;
 }
