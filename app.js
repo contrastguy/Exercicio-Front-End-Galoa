@@ -18,16 +18,12 @@ botao.addEventListener("click",function(){
 
 }) 
 
-
-let discussoesNovo = document.getElementById("discussoes-novo")
 let botaoEnviar = document.getElementById("botao-enviar");
 botaoEnviar.addEventListener("click",function(){
     novoConteudo.style.display="none";
-    if(discussoes.style.display==="none"){
-        discussoes.style.display="block";
-        discusssoesNovo.style.display="none"
-    }else{
-        discussoes.style.display="none";
-        discussoesNovo.style.display="block";
-    }
+   if(discussoes.style.height=="621px"){
+        discussoes.style.height="753px";
+   }else{
+       discussoes.style.height="621px";
+   }
 })
