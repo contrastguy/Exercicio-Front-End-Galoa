@@ -178,8 +178,8 @@ header {
 
 #botao-idiomas {
     position: relative;
-    right:-57%;
-   
+    right: -57%;
+
     box-sizing: border-box;
     border-radius: 3px;
 
@@ -548,7 +548,10 @@ main {
     top: -8px;
 }
 
-#discussoes>h3 {
+
+
+
+#discussoes-content>h3 {
     margin: 0;
     color: #ED7839;
     position: absolute;
@@ -588,7 +591,7 @@ hr {
     border: 1px solid #E7E7E7;
 }
 
-#discussoes>button {
+#discussoes-content>button {
     width: 133px;
     height: 32px;
     position: absolute;
@@ -700,4 +703,87 @@ footer {
     position: absolute;
     top: 170%;
     right: 529px;
+}
+
+
+
+#novo-topico {
+    display: none;
+    width: 1025px;
+    height: 245px;
+}
+
+#novo-topico>p {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 27%;
+}
+
+#novo-topico>h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 25px;
+    margin: 0px;
+    color: #ED7839;
+}
+
+#novoconteudo-assunto {
+    width: 1025.52px;
+    height: 39px;
+    position: relative;
+    left: 23px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+#novoconteudo-assunto>p {
+    color: #4D4D4D;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: -7px;
+    left: 16px;
+}
+
+#novoconteudo-txt {
+    width: 1025.52px;
+    height: 73px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    position: relative;
+    left: 23px;
+}
+
+#caixa-novoconteudo-txt {
+    background-color: #CCCCCC;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+    position: relative;
+    top: 48px;
+}
+
+#caixa-novoconteudo-txt>button {
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    border-radius: 0px 0px 4px 0px;
+    height: 23px;
+    width: 205px;
+    position: relative;
+    left: 76.3%;
+    color: #FFFFFF;
+}
+
+#img-italico{
+    position: relative;
+    left: 40px;
+}
+
+#img-negrito{
+    position: relative;
+    left: 23px;
 }

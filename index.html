@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
 </head>
 <body>
     <div id="side-menu-shadow"></div>
@@ -123,24 +125,41 @@
             <div id="discussoes-header">
               <p>Discussões</p>
             </div>
-            <h3> <b> Compartilhe suas ideias ou dúvidas com os autores!</b></h3> 
-            <div id="icone1">
-                <img src="Imagens/icone1.png" alt="Icone1">
+            <div id="discussoes-content"> 
+                <h3> <b> Compartilhe suas ideias ou dúvidas com os autores!</b></h3> 
+                <div id="icone1">
+                    <img src="Imagens/icone1.png" alt="Icone1">
+                </div>
+                <div id="icone2">
+                    <img src="Imagens/icone2.png" alt="Icone2">
+                </div>
+                <div id="icone3">
+                    <img src="Imagens/icone3.png" alt="Icone3">
+                </div>
+                <div id="txt-curiosidade">
+                    Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!
+                </div>
+                <hr>
+                <button id="criar-topico-botao">
+                    <img  id="img-botao-criar-topico" src="Imagens/icon - criar.png" alt="adicionar-sinal">
+                   <p id="criar-topico"> <strong>criar tópico</strong> </p> 
+                </button>
             </div>
-            <div id="icone2">
-                <img src="Imagens/icone2.png" alt="Icone2">
+            <div id="novo-topico">
+                <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+                <h5>Assunto</h5>
+                 <div id="novoconteudo-assunto">
+                    <p>Defina um tópico sucinto para notificar os autores...</p>
+                 </div>
+                <h5>Conteúdo</h5>
+                    <div id="novoconteudo-txt">
+                        <div id="caixa-novoconteudo-txt">
+                            <img id="img-negrito" src="Imagens/negrito-img.png" alt="botao-negrito">
+                            <img id="img-italico" src="Imagens/italico-img.png" alt="botao-italico">
+                        <button id="botao-enviar">Enviar</button>
+                        </div>
+                    </div>
             </div>
-            <div id="icone3">
-                <img src="Imagens/icone3.png" alt="Icone3">
-            </div>
-            <div id="txt-curiosidade">
-                Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!
-            </div>
-            <hr>
-            <button>
-                <img  id="img-botao-criar-topico" src="Imagens/icon - criar.png" alt="adicionar-sinal">
-               <p id="criar-topico"> <strong>criar tópico</strong> </p> 
-            </button>
             <div id="caixa1">
                 <div class="css-caixa"> 
                     <div class="caixa-header">
@@ -191,5 +210,7 @@
         <img src="Imagens/imagem - footer.png" alt="imagem-footer">
     </footer>
     <!-- // -->
+    <script src="app.js"></script>
+    
 </body>
 </html>
