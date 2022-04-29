@@ -65,5 +65,15 @@ resumoExpandido.addEventListener("click" , function(){
     
  })
 
-
- 
+let expansaoCardTopico = document.getElementById("quadrado-topico-expansao")
+let caixaFooter1Discussoes = document.getElementById("caixa1");
+let caixaFooter2Discussoes= document.getElementById("caixa2");
+ caixaFooter2Discussoes.addEventListener("click",function(){
+    discussoes.style.height="1228px";
+    rodapé.style.top="2144px";
+    botao.style.top ="189px";
+    caixaFooter1Discussoes.style.top="303px";
+    caixaFooter2Discussoes.style.top ="468px";
+    conteudo.style.position="relative";
+    expansaoCardTopico.style.display="block";
+ })
