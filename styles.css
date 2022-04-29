@@ -15,7 +15,7 @@ body {
     align-items: center;
     padding: 0px;
     position: relative;
-    bottom: 263vh;
+    bottom: 260vh;
 
 }
 
@@ -539,6 +539,7 @@ main {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 25px;
+    position: relative;
 
 }
 
@@ -778,18 +779,18 @@ footer {
     color: #FFFFFF;
 }
 
-#img-italico{
+#img-italico {
     position: relative;
     left: 40px;
 }
 
-#img-negrito{
+#img-negrito {
     position: relative;
     left: 23px;
 }
 
 
-#discussoes-novo{
+#discussoes-novo {
     width: 1058px;
     height: 753px;
     display: none;
@@ -820,4 +821,133 @@ footer {
     left: 30%;
     top: 9%;
     font-family: 'Roboto', sans-serif;
+}
+
+
+.css-caixa-novo {
+    width: 1028px;
+    height: 148px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+#caixa1-novo {
+    position: absolute;
+    left: 11px;
+    top: 45%;
+}
+
+
+#caixa2-novo {
+    position: absolute;
+    left: 11px;
+    top: 72%;
+}
+
+
+#envio-topico {
+    height: 296px;
+    width: 1028px;
+    position: absolute;
+    top: 89px;
+}
+
+#envio-topico>h4 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #ED7839;
+    position: absolute;
+    top: -20px;
+    left: 37%;
+}
+
+#envio-topico>p {
+    color: #595959;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 10%;
+}
+
+#envio-topico>a {
+    color: #F48F44;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 40%;
+    top: 2%;
+}
+
+#envio-topico>hr {
+    border: 1px solid #E7E7E7;
+    position: relative;
+    top: 132px;
+}
+
+#envio-topico>button {
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 12%), 0px 2px 2px rgb(0 0 0 / 24%);
+    border-radius: 4px;
+    width: 235.15px;
+    height: 32px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: 35.5%;
+    left: 38.5%;
+}
+
+#caixa1-envio {
+    position: relative;
+    top: 67%;
+    opacity: 0.4;
+}
+
+
+#aguardando-feedback {
+    width: 1028px;
+    height: 148px;
+    background: #DDDDDD;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    top: 17%;
+    left: 15px;
+    opacity: 0.7;
+
+}
+
+#aguardando-feedback>img {
+    position: relative;
+    left: 48%;
+    top: 13%;
+}
+
+#aguardando-feedback>h4 {
+    position: relative;
+    left: 38%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#aguardando-feedback>a {
+    position: relative;
+    left: 45%;
+    color: #ED7839;
+    font-family: 'Roboto', sans-serif;
+}
+
+#resumo-expandido-txt {
+    width: 1028px;
+    height: 485px;
+    display: none;
+}
+
+#resumo-expandido-txt>img {
+    position: relative;
+    left: 25px; 
+    top: 15px;
+    width: 1010px;
+    height: 420px;
 }
