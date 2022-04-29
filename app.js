@@ -18,12 +18,15 @@ botao.addEventListener("click",function(){
 
 }) 
 
+let rodapé = document.getElementsByTagName("footer");
+let sumirConteudoNovo = document.getElementById("discussoes-content-novo")
+let discussoesNovo = document.getElementById("discussoes-novo");
 let botaoEnviar = document.getElementById("botao-enviar");
 botaoEnviar.addEventListener("click",function(){
-    novoConteudo.style.display="none";
-   if(discussoes.style.height=="621px"){
-        discussoes.style.height="753px";
-   }else{
-       discussoes.style.height="621px";
-   }
+    sumirConteudoNovo.style.display="none"; 
+    discussoesNovo.style.display="block";
+    discussoes.style.display="none";
+    rodapé.
 })
+
+

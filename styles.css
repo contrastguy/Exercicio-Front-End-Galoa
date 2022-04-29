@@ -787,3 +787,37 @@ footer {
     position: relative;
     left: 23px;
 }
+
+
+#discussoes-novo{
+    width: 1058px;
+    height: 753px;
+    display: none;
+    z-index: 1;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    position: relative;
+    bottom: -39px;
+}
+
+
+#discussoes-content-novo>button {
+    width: 133px;
+    height: 32px;
+    position: absolute;
+    left: 43%;
+    bottom: 57%;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+
+}
+
+#discussoes-content-novo>h3 {
+    margin: 0;
+    color: #ED7839;
+    position: absolute;
+    left: 30%;
+    top: 9%;
+    font-family: 'Roboto', sans-serif;
+}
