@@ -29,8 +29,9 @@ botaoEnviar.addEventListener("click", function () {
     sumirConteudoNovo.style.display = "none";
     discussoesNovo.style.display = "block";
     discussoes.style.display = "none";
+    discussoesNovo.style.bottom ="-273px"
     rodapé.style.position = "relative";
-    rodapé.style.top = "-1016px";
+    rodapé.style.top = "-850px";
     rodapé.style.left = "221px";
     caixaFooter1.style.position = "absolute";
     caixaFooter2.style.position = "absolute"
@@ -41,8 +42,10 @@ botaoEnviar.addEventListener("click", function () {
 
 let criarNovoTopico = document.getElementById("criar-novo-topico");
 criarNovoTopico.addEventListener("click",function(){
-    discussoes.style.display="block"
+    discussoes.style.display="block";
     discussoesNovo.style.display="none"
+    expansaoCardTopico.style.display="none";
+
 } )
 
 let resumoExpandidoTxt = document.getElementById("resumo-expandido-txt")
@@ -55,8 +58,11 @@ resumoExpandido.addEventListener("click" , function(){
     resumoColapsado.style.height="500px";
     resumoTxt.style.display="none"
     resumoExpandidoTxt.style.display="block"
-    discussoes.style.bottom="-35px";
-    rodapé.style.top="1862px";
+    discussoes.style.bottom="-26px";
+    rodapé.style.top="1852px";
+    caixaFooter2Discussoes.addEventListener("click",function(){
+        
+    })
     // if(resumoTxt.style.display==="none"){
     //     resumoExpandidoTxt.style.display="block"
     // }else{
