@@ -65,6 +65,7 @@ resumoExpandido.addEventListener("click" , function(){
     discussoes.style.bottom="-26px";
     rodapé.style.top="1852px";
    
+   
     // if(resumoTxt.style.display==="none"){
     //     resumoExpandidoTxt.style.display="block"
     // }else{
@@ -85,6 +86,6 @@ let caixaFooter2Discussoes= document.getElementById("caixa2");
     caixaFooter2Discussoes.style.top ="468px";
     conteudo.style.position="relative";
     expansaoCardTopico.style.display="block";
-    discussoesNovo.style.display="block";
+    discussoesNovo.style.display="none";
     discussoesNovo.style.bottom="-287px";
  })
