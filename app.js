@@ -29,24 +29,28 @@ botaoEnviar.addEventListener("click", function () {
     sumirConteudoNovo.style.display = "none";
     discussoesNovo.style.display = "block";
     discussoes.style.display = "none";
-    discussoesNovo.style.bottom ="-273px"
+    discussoesNovo.style.bottom ="-34px"
     rodapé.style.position = "relative";
-    rodapé.style.top = "-850px";
+    rodapé.style.top = "-1083px";
     rodapé.style.left = "221px";
     caixaFooter1.style.position = "absolute";
     caixaFooter2.style.position = "absolute"
     caixaFooter1.style.top = "655px";
     caixaFooter2.style.top = "809px";
+    discussoesNovo.style.bottom="12px";
+    discussoes.style.bottom="224px";
 })
 
 
 let criarNovoTopico = document.getElementById("criar-novo-topico");
 criarNovoTopico.addEventListener("click",function(){
     discussoes.style.display="block";
+    
     discussoesNovo.style.display="none"
     expansaoCardTopico.style.display="none";
-
-} )
+    rodapé.style.top="-874px"
+    
+} ) 
 
 let resumoExpandidoTxt = document.getElementById("resumo-expandido-txt")
 let resumoTxt =  document.getElementById("Resumo-txt")
@@ -60,9 +64,7 @@ resumoExpandido.addEventListener("click" , function(){
     resumoExpandidoTxt.style.display="block"
     discussoes.style.bottom="-26px";
     rodapé.style.top="1852px";
-    caixaFooter2Discussoes.addEventListener("click",function(){
-        
-    })
+   
     // if(resumoTxt.style.display==="none"){
     //     resumoExpandidoTxt.style.display="block"
     // }else{
@@ -76,10 +78,13 @@ let caixaFooter1Discussoes = document.getElementById("caixa1");
 let caixaFooter2Discussoes= document.getElementById("caixa2");
  caixaFooter2Discussoes.addEventListener("click",function(){
     discussoes.style.height="1228px";
-    rodapé.style.top="2144px";
+    rodapé.style.position="absolute"
+    rodapé.style.top="2228px";
     botao.style.top ="189px";
     caixaFooter1Discussoes.style.top="303px";
     caixaFooter2Discussoes.style.top ="468px";
     conteudo.style.position="relative";
     expansaoCardTopico.style.display="block";
+    discussoesNovo.style.display="block";
+    discussoesNovo.style.bottom="-287px";
  })
