@@ -966,7 +966,8 @@ footer {
     box-sizing: border-box;
     border-radius: 0px;
 }
-.caixa-header-novo>h5{
+
+.caixa-header-novo>h5 {
     margin: 0;
     color: #ED7839;
     font-size: 17.5px;
@@ -976,20 +977,20 @@ footer {
     font-family: 'Quicksand', sans-serif;
 }
 
-.caixa-header-novo>p{
+.caixa-header-novo>p {
     color: #5C5C5C;
     font-family: 'Quicksand', sans-serif;
     position: relative;
     left: 28px;
 }
 
-.caixa-header-novo>img{
+.caixa-header-novo>img {
     position: relative;
     left: 95%;
     top: -65px;
 }
 
-.caixa-body-novo{
+.caixa-body-novo {
     text-align: inherit;
     position: relative;
     top: -53px;
@@ -997,3 +998,25 @@ footer {
     color: #4D4D4D;
     font-family: 'Quicksand', sans-serif;
 }
+
+@media (max-width:1440px) {
+    body {
+        position: absolute;
+        left: 15%;
+    }
+
+    #side-menu {
+        position: relative;
+        left: 0px;
+        top: -285vh;
+        display: block;
+    }
+
+    footer {
+        position: absolute;
+        top: 52%;
+        left: 220px;
+    }
+}
+
+
